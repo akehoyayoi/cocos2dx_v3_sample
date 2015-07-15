@@ -1,0 +1,37 @@
+# Windows image thumbnail file
+Thumbs.db
+
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+build/
+
+# Other files and folders
+.settings/
+
+#ios
+proj.ios_mac/*.xcodeproj/*
+!proj.ios_mac/*.xcodeproj/project.pbxproj
+
+# android
+proj.android/libs/armeabi/
+proj.android/obj/
+proj.android/assets/
+proj.android/gen/
+proj.android/out/
+proj.android/.classpath
+proj.android/.project
+proj.android/.cproject
+proj.android/.settings
+proj.android/google-play-services_lib/gen/
+
+# cocos
+.cocos-project.json
+
+# ccb
+Resources/ccbiFiles/*
+
+# other
+.DS_Store
+_DS_Store
